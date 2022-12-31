@@ -13,8 +13,13 @@
   ```
 - dist-packages to site-packages (`python -m site`)
 - python 3.9 to python 3.10 (`python -m site`)
+- pijuice.pijuice to pijuice:pijuice
+- Move binary `sudo mv /usr/lib/python3.9/dist-packages/pijuice.py /usr/lib/python3.10`
 
 ### Repackage
 
 ### Install
 `pacman -U pijuice-base-1.8-1-any-fix.pkg.tar`
+
+### Use
+`sudo pijuice_cli`
